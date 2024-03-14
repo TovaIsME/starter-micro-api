@@ -1,5 +1,6 @@
 var http = require('http');
 http.createServer(function (req, res) {
+    res.write('Working in the background nigga');
     console.log('starting');
 
 }).listen(process.env.PORT || 3000);
